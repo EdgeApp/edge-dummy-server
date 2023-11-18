@@ -1,0 +1,14 @@
+{
+  "apps": [
+    {
+      "name": "dummyServer",
+      "script": "./lib/indexApi.js",
+      "out_file": "/var/log/pm2/dummyApi.log"
+    },
+    {
+      "name": "dummyServer",
+      "script": "./lib/indexEngine.js",
+      "out_file": "/var/log/pm2/dummyEngine.log"
+    }
+  ]
+}
